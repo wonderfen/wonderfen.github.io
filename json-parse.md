@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# JSON.parse回对key进行排序？
+# JSON.parse会对key进行排序？
 在B/S应用中，服务端返回一个json字符串，前端将json字符串转换为json对象。但是在转换后不保证key的顺序与json字符串中的顺序一致。
 
 ``` js
