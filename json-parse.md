@@ -15,7 +15,6 @@ console.log(jsonObj)
 var jsonStr = '{"2019": 90, "2018": 88}'
 var jsonObj = JSON.parse(jsonStr)
 console.log(jsonObj)
-```
 // 输出，key与json字符串不一致
 {2018: 88, 2019: 90}
 ```
