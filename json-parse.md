@@ -8,8 +8,7 @@ layout: default
 var jsonStr = '{"张三": 90, "李四": 88}'
 var jsonObj = JSON.parse(jsonStr)
 console.log(jsonObj)
-```
-```
+// 输出，key与json字符串一致
 {张三: 90, 李四: 88}
 ```
 ``` js
@@ -17,6 +16,6 @@ var jsonStr = '{"2019": 90, "2018": 88}'
 var jsonObj = JSON.parse(jsonStr)
 console.log(jsonObj)
 ```
-```
+// 输出，key与json字符串不一致
 {2018: 88, 2019: 90}
 ```
